@@ -54,8 +54,8 @@ int main() {
     } while (isNotWork);
 
     if ((x + y < 1.0 || int(x + y) == 1) && (2.0 * x - y < 1.0 || int(2.0 * x - y) == 1) && (y > 0.0 || int(y) == 0))
-        std::cout << "This point belongs to the closed set D." << std::endl;
+        std::cout << "This point belongs to the closed set D.\n";
     else
-        std::cout << "This point doesn't belong to the closed set D." << std::endl;
+        std::cout << "This point doesn't belong to the closed set D.\n";
     return 0;
 }
