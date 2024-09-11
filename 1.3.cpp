@@ -6,6 +6,8 @@ int main() {
     bool isNotWork;
     double x, y;
 
+    x = y = 0.0;
+    
     std::cout << "This program determines, whether a point (x,y) belongs to the closed set D.\n";
 
     isNotWork = true;
