@@ -8,8 +8,8 @@ Const
 Var IsWork:Boolean;
     X, Y:Real;
 Begin
-    X := 0;
-    Y := 0;
+    X := 0.0;
+    Y := 0.0;
 
     WriteLn('This program determines, whether a point (x,y) belongs to the closed set D.');
 
@@ -21,7 +21,7 @@ Begin
         Except
             IsWork := False;
         End;
-        If (X < -INPUT_ACCURACY) Or (X > INPUT_ACCURACY) Then
+        If IsWork And ((X < -INPUT_ACCURACY) Or (X > INPUT_ACCURACY)) Then
         Begin
             WriteLn('The number is out of range.');
             IsWork := False;
@@ -36,7 +36,7 @@ Begin
         Except
             IsWork := False;
         End;
-        If (Y < -INPUT_ACCURACY) Or (Y > INPUT_ACCURACY) Then
+        If IsWork And ((Y < -INPUT_ACCURACY) Or (Y > INPUT_ACCURACY)) Then
         Begin
             WriteLn('The number is out of range.');
             IsWork := False;
