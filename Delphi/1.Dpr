@@ -5,7 +5,8 @@ Uses
 Const
     INPUT_ACCURACY :Integer = 20;
     INACCURACY :Real = 0.0000001;
-Var IsWork:Boolean;
+Var
+    IsWork:Boolean;
     X, Y:Real;
 Begin
     X := 0.0;
