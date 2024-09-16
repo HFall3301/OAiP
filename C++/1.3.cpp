@@ -9,7 +9,7 @@ int main() {
     x = 0.0;
     y = 0.0;
     
-    std::cout << "This program determines, whether a point (x,y) belongs to the closed set D.\n";
+    std::cout << "This program determines, whether a point (x,y) belongs to the closed set D\n";
 
     isNotWork = true;
     std::cout << "Please enter the x coordinate within +/- " << INPUT_ACCURACY << "\n";
