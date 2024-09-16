@@ -12,7 +12,7 @@ Begin
     X := 0.0;
     Y := 0.0;
 
-    WriteLn('This program determines, whether a point (x,y) belongs to the closed set D.');
+    WriteLn('This program determines, whether a point (x,y) belongs to the closed set D');
 
     Repeat
         IsWork := True;

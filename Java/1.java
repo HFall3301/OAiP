@@ -11,11 +11,11 @@ public class Main {
         x = 0.0;
         y = 0.0;
 
-        System.out.println("This program determines, whether a point (x,y) belongs to the closed set D.");
+        System.out.println("This program determines, whether a point (x,y) belongs to the closed set D");
 
         do {
             isNotWork = false;
-            System.out.println("Please enter the x coordinate within +/-" + INPUT_ACCURACY);
+            System.out.println("Please enter the x coordinate within +/- " + INPUT_ACCURACY);
             try {
                 x = Double.parseDouble(scan.nextLine());
             } catch (NumberFormatException exception) {
@@ -27,13 +27,13 @@ public class Main {
                     isNotWork = false;
                 }
                 else {
-                    System.out.println("Please enter a number again within +/-" + INPUT_ACCURACY);
+                    System.out.println("Please enter a number again within +/- " + INPUT_ACCURACY);
                     isNotWork = true;
                 }
         } while (isNotWork);
         do {
             isNotWork = false;
-            System.out.println("Please enter the y coordinate within +/-" + INPUT_ACCURACY);
+            System.out.println("Please enter the y coordinate within +/- " + INPUT_ACCURACY);
             try {
                 y = Double.parseDouble(scan.nextLine());
             } catch (NumberFormatException exception) {
@@ -45,7 +45,7 @@ public class Main {
                     isNotWork = false;
                 }
                 else {
-                    System.out.println("Please enter a number again within +/-" + INPUT_ACCURACY);
+                    System.out.println("Please enter a number again within +/- " + INPUT_ACCURACY);
                     isNotWork = true;
                 }
         } while (isNotWork);
