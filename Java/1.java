@@ -11,7 +11,7 @@ public class Main {
         x = 0.0;
         y = 0.0;
 
-        System.out.println("This program determines, whether a point (x,y) belongs to the closed set D.");
+        System.out.println("This program determines, whether a point (x,y) belongs to the closed set D");
 
         do {
             isNotWork = false;
