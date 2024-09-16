@@ -12,7 +12,7 @@ int main() {
     std::cout << "This program determines, whether a point (x,y) belongs to the closed set D.\n";
 
     isNotWork = true;
-    std::cout << "Please enter the x coordinate within +/-" << INPUT_ACCURACY << "\n";
+    std::cout << "Please enter the x coordinate within +/- " << INPUT_ACCURACY << "\n";
     do {
         std::cin >> x;
         if (std::cin.fail()){       //Ввели не число
@@ -25,14 +25,14 @@ int main() {
             std::cout << "Please enter ONLY a number again\n";
         }
         else if (x > INPUT_ACCURACY || x < -INPUT_ACCURACY) {       //Ввели число вне диапазона
-            std::cout << "Please enter a number again within +/-" << INPUT_ACCURACY << "\n";
+            std::cout << "Please enter a number again within +/- " << INPUT_ACCURACY << "\n";
         }
         else
             isNotWork = false;
     } while (isNotWork);
 
     isNotWork = true;
-    std::cout << "Please enter the y coordinate within +/-" << INPUT_ACCURACY << "\n";
+    std::cout << "Please enter the y coordinate within +/- " << INPUT_ACCURACY << "\n";
     do {
         std::cin >> y;
         if (std::cin.fail()){       //Ввели не число
@@ -45,7 +45,7 @@ int main() {
             std::cout << "Please enter ONLY a number again\n";
         }
         else if (y > INPUT_ACCURACY || y < -INPUT_ACCURACY) {       //Ввели число вне диапазона
-            std::cout << "Please enter a number again within +/-" << INPUT_ACCURACY << "\n";
+            std::cout << "Please enter a number again within +/- " << INPUT_ACCURACY << "\n";
         }
         else
             isNotWork = false;
