@@ -1,6 +1,6 @@
 #include <iostream>
 
-const int INPUT_ACCURACY = 32767;
+const int INPUT_ACCURACY = 20;
 const float INACCUARCY = 0.0000001;
 int main() {
     bool isNotWork;
