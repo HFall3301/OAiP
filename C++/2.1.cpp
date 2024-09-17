@@ -49,7 +49,7 @@ int main() {
         }
         else
             if (m > n)
-                std::cout << "m can't be greater than n!. Please try again\n";
+                std::cout << "m can't be greater than n. Please try again\n";
             else
                 isNotWork = false;
     } while (isNotWork);
